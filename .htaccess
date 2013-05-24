@@ -1,0 +1,20 @@
+order deny,allow
+deny from all
+allow from 91.198.174.0/24 # ts cluster
+allow from 91.198.174.201 #nightshade.toolserver.org 
+allow from 91.198.174.202 #willow.toolserver.org 
+allow from 91.198.174.216 #yarrow.toolserver.org 
+allow from 91.198.174.195 #clematis.toolserver.org 
+allow from 91.198.174.209 #hawthorn.toolserver.org 
+allow from 91.198.174.210 #wolfsbane.toolserver.org 
+allow from 91.198.174.211 #ortelius.toolserver.org 
+allow from 208.80.152.226 #amaranth.toolserver.org 
+allow from 91.198.174.194 #hemlock.toolserver.org 
+allow from 91.198.174.197 #turnera-ext-bge0.toolserver.org 
+allow from 91.198.174.204 #damiana-ext-bge0.toolserver.org 
+allow from 10.24.1.34 #hyacinth.esi.toolserver.org 
+allow from 10.24.1.33 #rosemary.esi.toolserver.org 
+allow from 91.198.174.217 #daphne.toolserver.org 
+allow from 10.24.1.30 #thyme.esi.toolserver.org 
+allow from 10.24.1.36 #cassia.esi.toolserver.org 
+allow from 10.24.1.38 #adenia.esi.toolserver.org 
